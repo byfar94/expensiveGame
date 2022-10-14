@@ -1,0 +1,90 @@
+body{
+    color: #4831D4;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+#title{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+header{
+    background-color: white;
+    border-bottom: 2px #CCF381 solid;
+    margin-bottom: 25px;
+}
+#formOne{
+    margin: 25px;
+}
+#hiddenButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hiddenButton{
+    display: none;
+    margin: 10px;
+}
+.smallButton{
+    background-color: #CCF381;
+    border: 2px #4831D4 solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.smallButton.ruleButton{
+    display: none;
+    padding: 0px 10px;
+    margin-left: 25px;
+}
+#ruleContainerOne{
+    display: flex;
+    flex-direction: row;
+}
+.section_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    background-color: #A5ADAD80;
+    border-radius: 20px;
+    margin: 0px 200px 20px;
+}
+.dice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.die{
+    padding: 20px;
+    margin: 5px;
+    border: 1px #4831D4 solid;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.button_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#roll_button{
+    font-size: 24px;
+    padding: 5px 50px;
+    background-color: #CCF381;
+    border: 2px #4831D4 solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#text_display{
+    text-align: center;
+}
+#drink_display{
+    text-align: center;
+    visibility: hidden;
+}

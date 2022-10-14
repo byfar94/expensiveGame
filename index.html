@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="title">The Expensive Game</h1>
+        </div>
+    </header>
+    <main></main>
+        <form id="formOne">
+            <label for="drinkOne">First Drink:</label>
+            <input type="text" id="drinkOne" name="drinkOne" placeholder="drink">
+            <label for="drinkTwo">Second Drink:</label>
+            <input type="text" id="drinkTwo" name="drinkTwo" placeholder="drink">
+            <input type="button" class="smallButton" id="subButton" value="submit"> 
+        </form>
+        <div id="hiddenButtonContainer">
+            <button class="smallButton" id="hiddenButton">Add New Drinks</button>
+        </div>
+        <div class = "section_one">
+            <div class = "dice">
+                <div id = "die_one" class="die"></div>
+                <div id = "die_two" class="die"></div>
+            </div>
+            <div id="display_container">
+                <p id="text_display"></p>
+                <p id="drink_display">hidden</p>
+            </div>
+            <div class="button_container">
+                <button id = "roll_button">Roll!</button>
+            </div>
+        </div>
+        <form class="ruleForms" id="ruleOneForm">
+            <input type="text" id="ruleOne" name="ruleOne">
+            <input type="button" class="smallButton" id="ruleButton1" value="add rule">
+        </form>
+        <div id="ruleContainerOne">
+            <p id="ruleOneText"></p>
+            <button class="smallButton ruleButton" id="ruleOneButton">Edit</button>
+        </div>
+        <form class="ruleForms" id="ruleTwoForm">
+            <input type="text" id="ruleTwo" name="ruleTwo">
+            <input type="button" class="smallButton" id="ruleButton2" value="add rule"> 
+        </form>
+        <div id="ruleContainerTwo">
+            <p id="ruleTwoText"></p>
+            <button class="smallButton ruleButton" id="ruleTwoButton">Edit</button>
+        </div>
+        <form class="ruleForms" id="ruleThreeForm">
+            <input type="text" id="ruleThree" name="ruleThree">
+            <input type="button" class="smallButton" id="ruleButton3" value="add rule">
+        </form>
+        <div id="ruleContainerThree">
+            <p id="ruleThreeText"></p>
+            <button class="smallButton ruleButton" id="ruleThreeButton">Edit</button>
+        </div>
+        
+    <script src = "script.js"></script>
+</body>
+</html>
