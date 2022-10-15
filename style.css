@@ -15,32 +15,20 @@ header{
     border-bottom: 2px #CCF381 solid;
     margin-bottom: 25px;
 }
-#formOne{
-    margin: 25px;
-}
 #hiddenButtonContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 0px 20px;
 }
 #hiddenButton{
     display: none;
-    margin: 10px;
 }
 .smallButton{
     background-color: #CCF381;
     border: 2px #4831D4 solid;
     border-radius: 10px;
     padding: 5px 10px;
-}
-.smallButton.ruleButton{
-    display: none;
-    padding: 0px 10px;
-    margin-left: 25px;
-}
-#ruleContainerOne{
-    display: flex;
-    flex-direction: row;
 }
 .section_one{
     display: flex;
@@ -66,6 +54,8 @@ header{
     border: 1px #4831D4 solid;
     background-color: whitesmoke;
     border-radius: 5px;
+    width: 15px;
+    height: 32px;
 }
 .button_container{
     display: flex;
@@ -83,8 +73,28 @@ header{
 }
 #text_display{
     text-align: center;
+    height: 32px;
 }
 #drink_display{
     text-align: center;
     visibility: hidden;
+    height: 32px;
+}
+#rulesContainer{
+    height: 200px;
+}
+.ruleContain{
+    display: flex;
+    flex-direction: row;
+}
+.smallButton.ruleButton{
+    display: none;
+    padding: 0px 10px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    height: 30px;
+    margin-top: 12px;
+}
+.ruleContain p{
+    font-size: 18px;
 }

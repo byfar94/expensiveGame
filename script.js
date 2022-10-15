@@ -106,14 +106,31 @@ function postRuleTwo(){
     let ruleTwoInput = document.getElementById("ruleTwo").value;
     let ruleTwoOut = document.getElementById("ruleTwoText");
     ruleTwoOut.innerHTML = ruleTwoInput;
+    document.getElementById("ruleTwoForm").style.display = "none";
+    document.getElementById("ruleTwoButton").style.display = "block";
 }
 document.getElementById("ruleButton2").addEventListener("click", postRuleTwo);
+
+function returnRuleTwo(){
+    document.getElementById("ruleTwoForm").style.display = "block";
+    document.getElementById("ruleTwoButton").style.display = "none";
+}
+document.getElementById("ruleTwoButton").addEventListener("click", returnRuleTwo);
 
 /*rule three*/
 function postRuleThree(){
     let ruleThreeInput = document.getElementById("ruleThree").value;
     let ruleThreeOut = document.getElementById("ruleThreeText");
     ruleThreeOut.innerHTML = ruleThreeInput;
+    document.getElementById("ruleThreeForm").style.display = "none";
+    document.getElementById("ruleThreeButton").style.display = "block";
 }
 document.getElementById("ruleButton3").addEventListener("click", postRuleThree);
+
+function returnRuleThree(){
+    document.getElementById("ruleThreeForm").style.display = "block";
+    document.getElementById("ruleThreeButton").style.display = "none";
+}
+document.getElementById("ruleThreeButton").addEventListener("click", returnRuleThree);
+
 /*end rules*/
